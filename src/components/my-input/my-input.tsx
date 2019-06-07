@@ -107,12 +107,10 @@ export class MyInput {
           style={{ backgroundColor: this.color }}>
           <i class="chevron" />
         </button>
-        /*para el color de la > es el style */
-        /*el de i  es el que mueve el iconito */
 
         <div id="slider" style={{ backgroundColor: this.color }}>
-          <div id="inner-slider" class="hide center"> /* its hide center, ut not until the fucking > works*/
-            <p>Select one of the options below</p>
+          <div id="inner-slider" class="hide center">
+          <p>Select one of the options below</p>
             <ul>
             <li><a href="#">Menu <span>Option 1</span></a></li>
             <li><a href="#">Menu <span>Option 2</span></a></li>
